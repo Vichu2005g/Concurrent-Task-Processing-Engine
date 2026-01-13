@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\src\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\src\Task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\src\TaskQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\src\Worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vishw\source\repos\Concurrent Task Processing Engine\Concurrent-Task-Processing-Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F6CCAC66-D215-359E-80AA-7398B57B74BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
