@@ -20,9 +20,10 @@ int main() {
 
     // 2. Generate Tasks
     for (int i = 1; i <= 20; ++i) {
-        queue.push(Task(i, [i]{ 
+        int priority = Utils::random(1, 100);
+        queue.push(Task(i, priority, [i, priority]{ 
             int duration = Utils::random(50, 200);
-            Logger::log("Task " + std::to_string(i) + " processing (" + std::to_string(duration) + "ms)");
+            Logger::log("Task " + std::to_string(i) + " [Priority " + std::to_string(priority) + "] processing (" + std::to_string(duration) + "ms)");
             Utils::sleep(duration); 
         }));
     }
