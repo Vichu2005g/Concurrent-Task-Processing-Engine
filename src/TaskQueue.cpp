@@ -16,7 +16,7 @@ Task TaskQueue::pop() {
         throw std::runtime_error("Queue is shutdown");
     }
 
-    Task task = std::move(queue.front());
+    Task task = queue.top();
     queue.pop();
     return task;
 }
@@ -26,7 +26,7 @@ std::optional<Task> TaskQueue::tryPop() {
     if (queue.empty()) {
         return std::nullopt;
     }
-    Task task = std::move(queue.front());
+    Task task = queue.top();
     queue.pop();
     return task;
 }
