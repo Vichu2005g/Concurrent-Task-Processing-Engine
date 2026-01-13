@@ -48,7 +48,7 @@ cmake --build build
 ./build/Debug/ConcurrentTaskEngine.exe
 ```
 
-## 📸 Output Example
+## Output Example
 ```text
 [Logger] Starting Concurrent Task Engine...
 [Logger] Worker 1 started.
