@@ -19,7 +19,7 @@ public:
     bool isShutdown() const;
 
 private:
-    std::queue<Task> queue;
+    std::priority_queue<Task> queue;
     mutable std::mutex queueMutex;
     std::condition_variable condition;
     bool shutdownFlag = false;
