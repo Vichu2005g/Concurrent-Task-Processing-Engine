@@ -10,5 +10,6 @@ add_executable(ConcurrentTaskEngine
     src/Utils.cpp
     src/Task.cpp
     src/TaskQueue.cpp
+    src/Worker.cpp
     # later: src/Task.cpp src/TaskQueue.cpp src/Worker.cpp src/Utils.cpp
 )
